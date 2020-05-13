@@ -12,9 +12,9 @@ import { ViewsModule } from './views';
   ],
   imports: [
     BrowserModule,
+    ViewsModule,
     DefaultLayoutModule,
-    AppRoutingModule,
-    ViewsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
